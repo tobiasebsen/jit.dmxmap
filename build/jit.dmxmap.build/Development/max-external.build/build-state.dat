@@ -1,0 +1,1083 @@
+Tmax-external
+v7
+r0
+t372192636.039241
+cCheck dependencies
+cProcessInfoPlistFile /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist /Users/imvteb/git/jit.dmxmap/Info.plist
+cSymLink /Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo
+cCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o /Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.c normal i386 c com.apple.compilers.llvmgcc42
+cCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/max.jit.dmxmap.o /Users/imvteb/git/jit.dmxmap/src/max.jit.dmxmap.c normal i386 c com.apple.compilers.llvmgcc42
+cLd /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap normal i386
+cTouch /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D85F5ED00000000000000EE
+t1300624877
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/Aliases.h
+c000000004A1196320000000000000027
+t1242666546
+s39
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/Controls.h
+c000000004A119632000000000000001B
+t1242666546
+s27
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/Devices.h
+c000000004A1196320000000000000027
+t1242666546
+s39
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/Files.h
+c000000004A1196320000000000000027
+t1242666546
+s39
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/MacTypes.h
+c000000004A1196320000000000000027
+t1242666546
+s39
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/MacWindows.h
+c000000004A119632000000000000001B
+t1242666546
+s27
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/QDOffscreen.h
+c000000004A1196320000000000000035
+t1242666546
+s53
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/QTML.h
+c000000004A119632000000000000002D
+t1242666546
+s45
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/Quickdraw.h
+c000000004A1196320000000000000035
+t1242666546
+s53
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/Types.h
+c000000004A1196320000000000000027
+t1242666546
+s39
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon/Windows.h
+c000000004A119632000000000000001B
+t1242666546
+s27
+
+N/Developer/SDKs/MacOSX10.6.sdk/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004D087E9F00000000000010DD
+t1292402335
+s4317
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004CC41EA700000000000005FF
+t1287921319
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004CC420410000000000000659
+t1287921729
+s1625
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004BBD2CE90000000000002C18
+t1270689001
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h
+c000000004BBD2CE90000000000000438
+t1270689001
+s1080
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004CC3DE680000000000002905
+t1287904872
+s10501
+
+N/Users/imvteb/git/jit.dmxmap/../../../c74support/max-includes/macho-prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Info.plist
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/PkgInfo
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/../../Info.plist
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/Info.plist
+c00000000506F3FB900000000000003CB
+t1349468089
+s971
+
+N/Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo
+t3
+s49
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/basic_c_strings.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms_max4.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/dllmain_win.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_byteorder.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_database.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.LinkFileList
+c00000000507ABCB900000000000000EC
+t1350220985
+s236
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o
+t1350499836
+s13404
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jpatcher_syms.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/max.jit.dmxmap.o
+t1350497454
+s6880
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/mouse.o
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo
+t1350499836
+s136
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist
+t1350221088
+s1244
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap
+t1350499836
+s17780
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/PkgInfo
+t1350221088
+s8
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/Info.plist
+t1350221069
+s971
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig
+t1350220916
+s598
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig
+t1350220916
+s1409
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig
+t1350220916
+s164
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig
+t1350220916
+s187
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig
+t1350221109
+s1551
+
+N/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc
+t1350220916
+s1101
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/JitterAPI.framework/JitterAPI
+c00000000506F3FB800000000001FA538
+t1349468088
+s2073912
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.byteorder.h
+c00000000506F3FB80000000000000E2C
+t1349468088
+s3628
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.common.h
+c00000000506F3FB800000000000035D9
+t1349468088
+s13785
+i"jit.platform.h"
+i"jit.error.h"
+i"jit.file.h"
+i"jit.math.h"
+i"jit.symbols.h"
+i"jit.gworld.h"
+i"jit.qt.codec.h"
+i"jit.critical.h"
+i"jit.op.h"
+i"jit.linklist.h"
+i"jit.parallel.utils.h"
+i"ext_obex.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.critical.h
+c00000000506F3FB80000000000000134
+t1349468088
+s308
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.error.h
+c00000000506F3FB80000000000000521
+t1349468088
+s1313
+i"jit.byteorder.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.file.h
+c00000000506F3FB80000000000000304
+t1349468088
+s772
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.gworld.h
+c00000000506F3FB8000000000000034C
+t1349468088
+s844
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.linklist.h
+c00000000506F3FB80000000000000CDE
+t1349468088
+s3294
+i"ext_linklist.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.mac.h
+c00000000506F3FB80000000000000390
+t1349468088
+s912
+i<Carbon/Carbon.h>
+i<QuickTime/QuickTime.h>
+i<MacTypes.h>
+i<devices.h>
+i<MacWindows.h>
+i<controls.h>
+i<Quickdraw.h>
+i<QDOffscreen.h>
+i<Aliases.h>
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.math.h
+c00000000506F3FB80000000000001D02
+t1349468088
+s7426
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.max.h
+c00000000506F3FB8000000000000114F
+t1349468088
+s4431
+i"ext.h"
+i"ext_proto.h"
+i"ext_strings.h"
+i"ext_critical.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.op.h
+c00000000506F3FB800000000000076D3
+t1349468088
+s30419
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.parallel.utils.h
+c00000000506F3FB800000000000007F5
+t1349468088
+s2037
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.platform.h
+c00000000506F3FB80000000000000A2A
+t1349468088
+s2602
+i"jit.mac.h"
+i"QTML.h"
+i"jit.mac.h"
+i"jit.max.h"
+i"jit.byteorder.h"
+i"jit.critical.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.qt.codec.h
+c00000000506F3FB80000000000003275
+t1349468088
+s12917
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jit.symbols.h
+c00000000506F3FB80000000000003B0B
+t1349468088
+s15115
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/jitlib.lib
+c00000000506F3FB8000000000004BC38
+t1349468088
+s310328
+
+N/Users/imvteb/git/jit.dmxmap/libs/jit-includes/max.jit.mop.h
+c00000000506F3FB800000000000013DB
+t1349468088
+s5083
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/MaxAPI.framework/MaxAPI
+c00000000506F3FB80000000000077894
+t1349468088
+s489620
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/MaxAPI.lib
+c00000000506F3FB8000000000006C68A
+t1349468088
+s444042
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/MaxLua.framework/MaxLua
+c00000000506F3FB8000000000007B268
+t1349468088
+s504424
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c
+c00000000506F3FB8000000000000083A
+t1349468088
+s2106
+i"ext.h"
+i"ext_strings.h"
+i<string.h>
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms.c
+c00000000506F3FB8000000000000010D
+t1349468088
+s269
+i"ext.h"
+i"commonsyms.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms_max4.c
+c00000000506F3FB80000000000002703
+t1349468088
+s9987
+i"ext.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/dllmain_win.c
+c00000000506F3FB8000000000000047F
+t1349468088
+s1151
+i"ext.h"
+i<windows.h>
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_byteorder.c
+c00000000506F3FB800000000000006C2
+t1349468088
+s1730
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_database.c
+c00000000506F3FB80000000000001BC5
+t1349468088
+s7109
+i"ext.h"
+i"ext_obex.h"
+i"ext_database.h"
+i"ext_strings.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/jpatcher_syms.c
+c00000000506F3FB800000000000033E2
+t1349468088
+s13282
+i"ext.h"
+i"jpatcher_syms.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c
+c00000000506F3FB80000000000000630
+t1349468088
+s1584
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/verinfo_win.rc
+c00000000506F3FB8000000000000044D
+t1349468088
+s1101
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/commonsyms.h
+c00000000506F3FB9000000000001CD3A
+t1349468089
+s118074
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext.h
+c00000000506F3FB900000000000003FC
+t1349468089
+s1020
+i"ext_prefix.h"
+i"ext_mess.h"
+i"ext_types.h"
+i"ext_maxtypes.h"
+i"ext_byteorder.h"
+i"ext_proto.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_atomarray.h
+c00000000506F3FB90000000000001E34
+t1349468089
+s7732
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_byteorder.h
+c00000000506F3FB900000000000022DD
+t1349468089
+s8925
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_critical.h
+c00000000506F3FB90000000000000AB1
+t1349468089
+s2737
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_database.h
+c00000000506F3FB9000000000000320B
+t1349468089
+s12811
+i"ext.h"
+i"ext_obex.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_dictionary.h
+c00000000506F3FB90000000000007429
+t1349468089
+s29737
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_expr.h
+c00000000506F3FB900000000000012CA
+t1349468089
+s4810
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_hashtab.h
+c00000000506F3FB9000000000000311E
+t1349468089
+s12574
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_linklist.h
+c00000000506F3FB90000000000005275
+t1349468089
+s21109
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_maxtypes.h
+c00000000506F3FB900000000000009C0
+t1349468089
+s2496
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_mess.h
+c00000000506F3FB90000000000002BB0
+t1349468089
+s11184
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_obex.h
+c00000000506F3FB90000000000016AED
+t1349468089
+s92909
+i"commonsyms.h"
+i"ext_linklist.h"
+i"ext_hashtab.h"
+i"ext_atomarray.h"
+i"ext_obex_util.h"
+i"ext_dictionary.h"
+i"ext_obstring.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_obex_util.h
+c00000000506F3FB90000000000019A1F
+t1349468089
+s104991
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_obstring.h
+c00000000506F3FB90000000000000895
+t1349468089
+s2197
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_path.h
+c00000000506F3FB900000000000063CD
+t1349468089
+s25549
+i<Files.h>
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_prefix.h
+c00000000506F3FB900000000000017EE
+t1349468089
+s6126
+i<MacTypes.h>
+i<sys/types.h>
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i<ctype.h>
+i<math.h>
+i<string.h>
+i<setjmp.h>
+i<assert.h>
+i<windows.h>
+i<richedit.h>
+i<commctrl.h>
+i"ext_prefix_win.h"
+i"qtml.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_proto.h
+c00000000506F3FB90000000000012AF2
+t1349468089
+s76530
+i"ext_types.h"
+i"ext_maxtypes.h"
+i"ext_sysmem.h"
+i"ext_sysfile.h"
+i"ext_systime.h"
+i"ext_expr.h"
+i"ext_path.h"
+i"ext_qtimage.h"
+i"ext_wind.h"
+i"ext_proto_win.h"
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_proto_win.h
+c00000000506F3FB90000000000000247
+t1349468089
+s583
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_qtimage.h
+c00000000506F3FB900000000000005E7
+t1349468089
+s1511
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_strings.h
+c00000000506F3FB90000000000000822
+t1349468089
+s2082
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_sysfile.h
+c00000000506F3FB90000000000002277
+t1349468089
+s8823
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_sysmem.h
+c00000000506F3FB900000000000016E4
+t1349468089
+s5860
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_systime.h
+c00000000506F3FB90000000000000C29
+t1349468089
+s3113
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_types.h
+c00000000506F3FB9000000000000135F
+t1349468089
+s4959
+i<Types.h>
+i<Quickdraw.h>
+i<MacTypes.h>
+i<Quickdraw.h>
+i<Controls.h>
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/ext_wind.h
+c00000000506F3FB90000000000000683
+t1349468089
+s1667
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/jpatcher_syms.h
+c00000000506F3FB90000000000001B72
+t1349468089
+s7026
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/macho-prefix.pch
+c00000000506F3FB900000000000000A4
+t1349468089
+s164
+i<Carbon/Carbon.h>
+i<QuickTime/QuickTime.h>
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-common.xcconfig
+c00000000506F3FB90000000000000256
+t1349468089
+s598
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-common.xcconfig
+c00000000506F3FB90000000000000581
+t1349468089
+s1409
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-debug.xcconfig
+c00000000506F3FB900000000000000A4
+t1349468089
+s164
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-release.xcconfig
+c00000000506F3FB900000000000000BB
+t1349468089
+s187
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/maxcrt.lib
+c00000000506F3FB90000000000149584
+t1349468089
+s1348996
+
+N/Users/imvteb/git/jit.dmxmap/libs/max-includes/maxcrt_p.lib
+c00000000506F3FB90000000000170D04
+t1349468089
+s1510660
+
+N/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/imvteb/git/jit.dmxmap/maxmspsdk.xcconfig
+c00000000507ABD34000000000000060F
+t1350221108
+s1551
+
+N/Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.c
+c00000000507EFDFA0000000000001FFC
+t1350499834
+s8188
+i"jit.common.h"
+
+N/Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.cpp
+c00000000507EFC600000000000001E48
+t1350499424
+s7752
+i"jit.common.h"
+
+N/Users/imvteb/git/jit.dmxmap/src/max.jit.dmxmap.c
+c00000000507EF4AD00000000000008BB
+t1350497453
+s2235
+i"jit.common.h"
+i"max.jit.mop.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies372192635#372192635#0(0"0(0#1#0"8648833984#0"0#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/basic_c_strings.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c normal i386 c com.apple.compilers.llvmgcc42
+s371913717.488321
+e371913717.708086
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/basic_c_strings.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:17: error: expected declaration specifiers or '...' before numeric constant
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:17: error: expected ')' before '!=' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:17: error: expected ')' before '?' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:27: error: expected declaration specifiers or '...' before numeric constant
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:27: error: expected ')' before '!=' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:27: error: expected ')' before '?' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:69: error: expected declaration specifiers or '...' before numeric constant
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:69: error: expected ')' before '!=' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:69: error: expected ')' before '?' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:80: error: expected declaration specifiers or '...' before numeric constant
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:80: error: expected ')' before '!=' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:80: error: expected ')' before '?' token
+lSLF07#2@79"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371913717#371913717#0(1598"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:17: error: expected declaration specifiers or '...' before numeric constant/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:17: error: expected ')' before '!=' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:17: error: expected ')' before '?' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:27: error: expected declaration specifiers or '...' before numeric constant/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:27: error: expected ')' before '!=' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:27: error: expected ')' before '?' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:69: error: expected declaration specifiers or '...' before numeric constant/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:69: error: expected ')' before '!=' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:69: error: expected ')' before '?' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:80: error: expected declaration specifiers or '...' before numeric constant/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:80: error: expected ')' before '!=' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c:80: error: expected ')' before '?' token13(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913717#0#98#0(6@0"371913717#0#0#0#0#28"*: No such file or directory0(4@64"Expected declaration specifiers or '...' before numeric constant371913717#98#148#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#17#0#17#0#19"expected * before *0(4@30"Expected ')' before '!=' token371913717#246#114#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#17#0#17#0#19"expected * before *0(4@29"Expected ')' before '?' token371913717#360#113#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#17#0#17#0#19"expected * before *0(4@64"Expected declaration specifiers or '...' before numeric constant371913717#473#148#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#27#0#27#0#19"expected * before *0(4@30"Expected ')' before '!=' token371913717#621#114#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#27#0#27#0#19"expected * before *0(4@29"Expected ')' before '?' token371913717#735#113#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#27#0#27#0#19"expected * before *0(4@64"Expected declaration specifiers or '...' before numeric constant371913717#848#148#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#69#0#69#0#19"expected * before *0(4@30"Expected ')' before '!=' token371913717#996#114#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#69#0#69#0#19"expected * before *0(4@29"Expected ')' before '?' token371913717#1110#113#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#69#0#69#0#19"expected * before *0(4@64"Expected declaration specifiers or '...' before numeric constant371913717#1223#148#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#80#0#80#0#19"expected * before *0(4@30"Expected ')' before '!=' token371913717#1371#114#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#80#0#80#0#19"expected * before *0(4@29"Expected ')' before '?' token371913717#1485#113#0(6@71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c371160888#80#0#80#0#19"expected * before *0(0#0#71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c8630612096#1514"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/basic_c_strings.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/basic_c_strings.o1#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms.c normal i386 c com.apple.compilers.llvmgcc42
+s371913717.500389
+e371913717.759906
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+lSLF07#2@74"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms.c371913717#371913717#0(98"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory1(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913717#0#98#0(6@0"371913717#0#0#0#0#28"*: No such file or directory0(0#0#66"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms.c8630044032#1504"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms.o1#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms_max4.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms_max4.c normal i386 c com.apple.compilers.llvmgcc42
+s371913717.708172
+e371913717.976749
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms_max4.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms_max4.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+lSLF07#2@79"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms_max4.c371913717#371913717#0(98"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory1(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913717#0#98#0(6@0"371913717#0#0#0#0#28"*: No such file or directory0(0#0#71"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms_max4.c8624511488#1514"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/commonsyms_max4.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/commonsyms_max4.o1#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/dllmain_win.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/dllmain_win.c normal i386 c com.apple.compilers.llvmgcc42
+s371913717.759989
+e371913717.780528
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/dllmain_win.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/dllmain_win.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+lSLF07#2@75"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/dllmain_win.c371913717#371913717#0(98"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory1(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913717#0#98#0(6@0"371913717#0#0#0#0#28"*: No such file or directory0(0#0#67"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/dllmain_win.c8620072384#1506"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/dllmain_win.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/dllmain_win.o1#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_byteorder.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_byteorder.c normal i386 c com.apple.compilers.llvmgcc42
+s371913717.780611
+e371913717.803801
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_byteorder.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_byteorder.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+lSLF07#2@77"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_byteorder.c371913717#371913717#0(98"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory1(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913717#0#98#0(6@0"371913717#0#0#0#0#28"*: No such file or directory0(0#0#69"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_byteorder.c8632302880#1510"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_byteorder.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_byteorder.o1#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_database.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_database.c normal i386 c com.apple.compilers.llvmgcc42
+s371913717.803894
+e371913718.180517
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_database.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_database.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+lSLF07#2@76"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_database.c371913717#371913718#0(98"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory1(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913717#0#98#0(6@0"371913717#0#0#0#0#28"*: No such file or directory0(0#0#68"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_database.c8631808352#1508"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/ext_database.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/ext_database.o1#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o /Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.c normal i386 c com.apple.compilers.llvmgcc42
+s372192635.437695
+e372192636.019026
+r1
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o
+x/Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@53"Compile /Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.c372192635#372192636#0(0"0(0#0#45"/Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.c8645593696#1356"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/libs/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/libs/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o0#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o /Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s372192114.310053
+e372192115.822126
+r1
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o
+x/Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@55"Compile /Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.cpp372192114#372192115#0(0"0(0#0#47"/Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.cpp8646160800#1388"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/libs/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/libs/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/src/jit.dmxmap.cpp -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.o0#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jpatcher_syms.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/jpatcher_syms.c normal i386 c com.apple.compilers.llvmgcc42
+s371913717.976835
+e371913718.286594
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jpatcher_syms.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/jpatcher_syms.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+lSLF07#2@77"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/jpatcher_syms.c371913717#371913718#0(98"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory1(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913718#0#98#0(6@0"371913718#0#0#0#0#28"*: No such file or directory0(0#0#69"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/jpatcher_syms.c8630809504#1510"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/jpatcher_syms.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jpatcher_syms.o1#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/max.jit.dmxmap.o /Users/imvteb/git/jit.dmxmap/src/max.jit.dmxmap.c normal i386 c com.apple.compilers.llvmgcc42
+s372190253.844018
+e372190254.415091
+r1
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/max.jit.dmxmap.o
+x/Users/imvteb/git/jit.dmxmap/src/max.jit.dmxmap.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@57"Compile /Users/imvteb/git/jit.dmxmap/src/max.jit.dmxmap.c372190253#372190254#0(0"0(0#0#49"/Users/imvteb/git/jit.dmxmap/src/max.jit.dmxmap.c8620970944#1364"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/libs/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/libs/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/src/max.jit.dmxmap.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/max.jit.dmxmap.o0#
+
+CCompileC build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/mouse.o /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c normal i386 c com.apple.compilers.llvmgcc42
+s371913718.180600
+e371913718.201054
+r0
+xCompileC
+xbuild/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/mouse.o
+x/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvmgcc42
+occ1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:3: error: expected ')' before '*' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:4: error: expected ')' before '*' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:28: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'void'
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:39: error: expected ')' before '*' token
+o/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:68: error: expected ')' before '*' token
+lSLF07#2@69"Compile /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c371913718#371913718#0(644"cc1: error: /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:3: error: expected ')' before '*' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:4: error: expected ')' before '*' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:28: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'void'/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:39: error: expected ')' before '*' token/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c:68: error: expected ')' before '*' token6(4@85"/Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch: No such file or directory371913718#0#98#0(6@0"371913718#0#0#0#0#28"*: No such file or directory0(4@29"Expected ')' before '*' token371913718#98#102#0(6@61"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c371160888#3#0#3#0#19"expected * before *0(4@29"Expected ')' before '*' token371913718#200#102#0(6@61"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c371160888#4#0#4#0#19"expected * before *0(4@62"Expected '=', ',', ';', 'asm' or '__attribute__' before 'void'371913718#302#136#0(6@61"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c371160888#28#0#28#0#19"expected * before *0(4@29"Expected ')' before '*' token371913718#438#103#0(6@61"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c371160888#39#0#39#0#19"expected * before *0(4@29"Expected ')' before '*' token371913718#541#103#0(6@61"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c371160888#68#0#68#0#19"expected * before *0(0#0#61"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c8634486400#1494"    cd /Users/imvteb/git/jit.dmxmap    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 "-DDENORM_WANT_FIX = 1" -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/jit.dmxmap.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/max-includes -F/Users/imvteb/git/jit.dmxmap/msp-includes -F/Users/imvteb/git/jit.dmxmap/jit-includes -F/Users/imvteb/git/jit.dmxmap/../../../c74support/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -I/Users/imvteb/git/jit.dmxmap/build/Development/include -I/Developer/SDKs/MacOSX10.6.sdk/Developer/Headers/FlatCarbon -I/Users/imvteb/git/jit.dmxmap/max-includes -I/Users/imvteb/git/jit.dmxmap/msp-includes -I/Users/imvteb/git/jit.dmxmap/jit-includes -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources/i386 -I/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/DerivedSources -include /Users/imvteb/git/jit.dmxmap/max-includes/macho-prefix.pch -c /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/mouse.c -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/mouse.o1#
+
+CCopyPlistFile /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/Info.plist Info.plist
+s371913868.685498
+e371913869.031347
+r1
+xCopyPlistFile
+x/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources/Info.plist
+xInfo.plist
+lSLF07#2@15"Copy Info.plist371913868#371913869#0(0"0(0#0#39"/Users/imvteb/git/jit.dmxmap/Info.plist8629296896#216"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist Info.plist --outdir /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources0#
+
+CCpResource ../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig libs/max-includes/max-common.xcconfig
+s371913690.783289
+e371913690.792250
+r0
+xCpResource
+x../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig
+xlibs/max-includes/max-common.xcconfig
+opbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory
+lSLF07#2@42"Copy libs/max-includes/max-common.xcconfig371913690#371913690#0(347"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission deniedpbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory1(4@133"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(0#0#66"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-common.xcconfig8632831968#347"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-common.xcconfig /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources1#
+
+CCpResource ../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig libs/max-includes/max-external-common.xcconfig
+s371913690.783996
+e371913690.794037
+r0
+xCpResource
+x../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig
+xlibs/max-includes/max-external-common.xcconfig
+opbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory
+lSLF07#2@51"Copy libs/max-includes/max-external-common.xcconfig371913690#371913690#0(356"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission deniedpbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory1(4@133"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(0#0#75"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-common.xcconfig8632253504#356"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-common.xcconfig /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources1#
+
+CCpResource ../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig libs/max-includes/max-external-debug.xcconfig
+s371913690.787782
+e371913690.792347
+r0
+xCpResource
+x../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig
+xlibs/max-includes/max-external-debug.xcconfig
+opbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory
+lSLF07#2@50"Copy libs/max-includes/max-external-debug.xcconfig371913690#371913690#0(355"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission deniedpbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory1(4@133"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(0#0#74"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-debug.xcconfig8632000928#355"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-debug.xcconfig /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources1#
+
+CCpResource ../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig libs/max-includes/max-external-release.xcconfig
+s371913690.788386
+e371913690.794446
+r0
+xCpResource
+x../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig
+xlibs/max-includes/max-external-release.xcconfig
+opbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory
+lSLF07#2@52"Copy libs/max-includes/max-external-release.xcconfig371913690#371913690#0(357"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission deniedpbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory1(4@133"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(0#0#76"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-release.xcconfig8631806016#357"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-release.xcconfig /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources1#
+
+CCpResource ../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig maxmspsdk.xcconfig
+s371913690.789016
+e371913690.796039
+r0
+xCpResource
+x../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig
+xmaxmspsdk.xcconfig
+opbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory
+lSLF07#2@23"Copy maxmspsdk.xcconfig371913690#371913690#0(346"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission deniedpbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory1(4@133"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(0#0#47"/Users/imvteb/git/jit.dmxmap/maxmspsdk.xcconfig8631701632#328"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/maxmspsdk.xcconfig /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources1#
+
+CCpResource ../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc libs/max-includes/common/verinfo_win.rc
+s371913690.782153
+e371913690.792146
+r0
+xCpResource
+x../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc
+xlibs/max-includes/common/verinfo_win.rc
+opbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory
+lSLF07#2@44"Copy libs/max-includes/common/verinfo_win.rc371913690#371913690#0(342"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission deniedpbxcp: error: open(): /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc [/SourceCache/pbx_tools/pbx_tools-1706/pbxcp/file_utils.m:420]: No such file or directory1(4@133"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(0#0#68"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/verinfo_win.rc8634530816#349"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/verinfo_win.rc /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Resources1#
+
+CCpResource build/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig libs/max-includes/max-common.xcconfig
+s371913716.825863
+e371913716.855121
+r1
+xCpResource
+xbuild/jit.dmxmap.mxo/Contents/Resources/max-common.xcconfig
+xlibs/max-includes/max-common.xcconfig
+lSLF07#2@42"Copy libs/max-includes/max-common.xcconfig371913716#371913716#0(0"0(0#0#66"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-common.xcconfig8627583744#334"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-common.xcconfig /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources0#
+
+CCpResource build/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig libs/max-includes/max-external-common.xcconfig
+s371913716.830445
+e371913716.855208
+r1
+xCpResource
+xbuild/jit.dmxmap.mxo/Contents/Resources/max-external-common.xcconfig
+xlibs/max-includes/max-external-common.xcconfig
+lSLF07#2@51"Copy libs/max-includes/max-external-common.xcconfig371913716#371913716#0(0"0(0#0#75"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-common.xcconfig8620339360#343"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-common.xcconfig /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources0#
+
+CCpResource build/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig libs/max-includes/max-external-debug.xcconfig
+s371913716.831776
+e371913716.855299
+r1
+xCpResource
+xbuild/jit.dmxmap.mxo/Contents/Resources/max-external-debug.xcconfig
+xlibs/max-includes/max-external-debug.xcconfig
+lSLF07#2@50"Copy libs/max-includes/max-external-debug.xcconfig371913716#371913716#0(0"0(0#0#74"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-debug.xcconfig8607334912#342"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-debug.xcconfig /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources0#
+
+CCpResource build/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig libs/max-includes/max-external-release.xcconfig
+s371913716.840973
+e371913716.855390
+r1
+xCpResource
+xbuild/jit.dmxmap.mxo/Contents/Resources/max-external-release.xcconfig
+xlibs/max-includes/max-external-release.xcconfig
+lSLF07#2@52"Copy libs/max-includes/max-external-release.xcconfig371913716#371913716#0(0"0(0#0#76"/Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-release.xcconfig8605989824#344"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/max-external-release.xcconfig /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources0#
+
+CCpResource build/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig maxmspsdk.xcconfig
+s371913909.161216
+e371913909.176161
+r1
+xCpResource
+xbuild/jit.dmxmap.mxo/Contents/Resources/maxmspsdk.xcconfig
+xmaxmspsdk.xcconfig
+lSLF07#2@23"Copy maxmspsdk.xcconfig371913909#371913909#0(0"0(0#0#47"/Users/imvteb/git/jit.dmxmap/maxmspsdk.xcconfig8603164192#315"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/maxmspsdk.xcconfig /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources0#
+
+CCpResource build/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc libs/max-includes/common/verinfo_win.rc
+s371913716.825126
+e371913716.855020
+r1
+xCpResource
+xbuild/jit.dmxmap.mxo/Contents/Resources/verinfo_win.rc
+xlibs/max-includes/common/verinfo_win.rc
+lSLF07#2@44"Copy libs/max-includes/common/verinfo_win.rc371913716#371913716#0(0"0(0#0#68"/Users/imvteb/git/jit.dmxmap/libs/max-includes/common/verinfo_win.rc8606333120#336"    cd /Users/imvteb/git/jit.dmxmap    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/imvteb/git/jit.dmxmap/libs/max-includes/common/verinfo_win.rc /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Resources0#
+
+CLd /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap normal i386
+r0
+
+CLd /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap normal i386
+s372192636.019109
+e372192636.036983
+r1
+xLd
+x/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap
+xnormal
+xi386
+lSLF07#2@80"Link /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap372192636#372192636#0(0"0(0#0#0"8649235072#867"    cd /Users/imvteb/git/jit.dmxmap    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/imvteb/git/jit.dmxmap/build/Development -L/Users/imvteb/git/jit.dmxmap/libs/jit-includes -L/Users/imvteb/git/jit.dmxmap/libs/max-includes -F/Users/imvteb/git/jit.dmxmap/build/Development -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/jit-includes -F/Users/imvteb/git/jit.dmxmap/libs/max-includes -filelist /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.build/Development/max-external.build/Objects-normal/i386/jit.dmxmap.LinkFileList -mmacosx-version-min=10.6 -framework MaxAPI -framework JitterAPI -framework JitterAPI -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/MacOS/jit.dmxmap0#
+
+CProcessInfoPlistFile /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Info.plist /Users/imvteb/git/jit.dmxmap/../../Info.plist
+s371913690.780171
+e371913690.782102
+r0
+xProcessInfoPlistFile
+x/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Info.plist
+x/Users/imvteb/git/jit.dmxmap/../../Info.plist
+lSLF07#2@53"Process /Users/imvteb/git/jit.dmxmap/../../Info.plist371913690#371913690#0(405"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents: Permission deniederror: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents: Permission deniederror: could not read data from '/Users/imvteb/git/jit.dmxmap/../../Info.plist': The file “Info.plist” couldn’t be opened because there is no such file.3(4@123"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(4@123"error: couldn't create directory /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents: Permission denied371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(4@151"could not read data from '/Users/imvteb/git/jit.dmxmap/../../Info.plist': The file “Info.plist” couldn’t be opened because there is no such file.371913690#18446744073709551615#0#0(6@0"371913690#0#0#0#0#0"0(0#0#45"/Users/imvteb/git/jit.dmxmap/../../Info.plist8603303808#327"    cd /Users/imvteb/git/jit.dmxmap    builtin-infoPlistUtility /Users/imvteb/git/jit.dmxmap/../../Info.plist -genpkginfo /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo/Contents/Info.plist1#
+
+CProcessInfoPlistFile /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist /Users/imvteb/git/jit.dmxmap/../../Info.plist
+s371913868.683427
+e371913868.685214
+r0
+xProcessInfoPlistFile
+x/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist
+x/Users/imvteb/git/jit.dmxmap/../../Info.plist
+lSLF07#2@53"Process /Users/imvteb/git/jit.dmxmap/../../Info.plist371913868#371913868#0(159"error: could not read data from '/Users/imvteb/git/jit.dmxmap/../../Info.plist': The file “Info.plist” couldn’t be opened because there is no such file.1(4@151"could not read data from '/Users/imvteb/git/jit.dmxmap/../../Info.plist': The file “Info.plist” couldn’t be opened because there is no such file.371913868#18446744073709551615#0#0(6@0"371913868#0#0#0#0#0"0(0#0#45"/Users/imvteb/git/jit.dmxmap/../../Info.plist8629625952#301"    cd /Users/imvteb/git/jit.dmxmap    builtin-infoPlistUtility /Users/imvteb/git/jit.dmxmap/../../Info.plist -genpkginfo /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist1#
+
+CProcessInfoPlistFile /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist /Users/imvteb/git/jit.dmxmap/Info.plist
+s371913888.464136
+e371913888.466922
+r1
+xProcessInfoPlistFile
+x/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist
+x/Users/imvteb/git/jit.dmxmap/Info.plist
+lSLF07#2@47"Process /Users/imvteb/git/jit.dmxmap/Info.plist371913888#371913888#0(0"0(0#0#39"/Users/imvteb/git/jit.dmxmap/Info.plist8631069856#295"    cd /Users/imvteb/git/jit.dmxmap    builtin-infoPlistUtility /Users/imvteb/git/jit.dmxmap/Info.plist -genpkginfo /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo/Contents/Info.plist0#
+
+CSymLink /Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo
+s371913646.168162
+e371913646.280602
+r1
+xSymLink
+x/Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo
+x/Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo
+lSLF07#2@69"Process /Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo371913646#371913646#0(0"0(0#0#0"8631826752#177"    cd /Users/imvteb/git/jit.dmxmap    /bin/ln -sf /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo /Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo0#
+
+CSymLink /Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo
+s371913716.812736
+e371913716.824780
+r1
+xSymLink
+x/Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo
+x/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo
+lSLF07#2@69"Process /Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo371913716#371913716#0(0"0(0#0#0"8607116608#164"    cd /Users/imvteb/git/jit.dmxmap    /bin/ln -sf /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo /Users/imvteb/git/jit.dmxmap/build/Development/jit.dmxmap.mxo0#
+
+CTouch /Users/imvteb/git/jit.dmxmap/../../../sdk-build/jit.dmxmap.mxo
+r0
+
+CTouch /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo
+s372192636.037061
+e372192636.039218
+r1
+xTouch
+x/Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo
+lSLF07#2@55"Touch /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo372192636#372192636#0(0"0(0#0#0"8648573728#108"    cd /Users/imvteb/git/jit.dmxmap    /usr/bin/touch -c /Users/imvteb/git/jit.dmxmap/build/jit.dmxmap.mxo0#
+

@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167F4BF2162AF284003E6DB5 /* jit.dmxmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 167F4BF0162AF284003E6DB5 /* jit.dmxmap.c */; };
+		167F4BF3162AF284003E6DB5 /* max.jit.dmxmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 167F4BF1162AF284003E6DB5 /* max.jit.dmxmap.c */; };
+		167F4C80162AF32F003E6DB5 /* jit.agl.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4BFA162AF32F003E6DB5 /* jit.agl.h */; };
+		167F4C81162AF32F003E6DB5 /* jit.altivec.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4BFB162AF32F003E6DB5 /* jit.altivec.h */; };
+		167F4C82162AF32F003E6DB5 /* jit.bin.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4BFC162AF32F003E6DB5 /* jit.bin.h */; };
+		167F4C83162AF32F003E6DB5 /* jit.byteorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4BFD162AF32F003E6DB5 /* jit.byteorder.h */; };
+		167F4C84162AF32F003E6DB5 /* jit.common.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4BFE162AF32F003E6DB5 /* jit.common.h */; };
+		167F4C85162AF32F003E6DB5 /* jit.cpost.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4BFF162AF32F003E6DB5 /* jit.cpost.h */; };
+		167F4C86162AF32F003E6DB5 /* jit.critical.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C00162AF32F003E6DB5 /* jit.critical.h */; };
+		167F4C87162AF32F003E6DB5 /* jit.cubicspline.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C01162AF32F003E6DB5 /* jit.cubicspline.h */; };
+		167F4C88162AF32F003E6DB5 /* jit.error.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C02162AF32F003E6DB5 /* jit.error.h */; };
+		167F4C89162AF32F003E6DB5 /* jit.file.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C03162AF32F003E6DB5 /* jit.file.h */; };
+		167F4C8A162AF32F003E6DB5 /* jit.fixmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C04162AF32F003E6DB5 /* jit.fixmath.h */; };
+		167F4C8B162AF32F003E6DB5 /* jit.functor.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C05162AF32F003E6DB5 /* jit.functor.h */; };
+		167F4C8C162AF32F003E6DB5 /* jit.gl.cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C06162AF32F003E6DB5 /* jit.gl.cache.h */; };
+		167F4C8D162AF32F003E6DB5 /* jit.gl.chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C07162AF32F003E6DB5 /* jit.gl.chunk.h */; };
+		167F4C8E162AF32F003E6DB5 /* jit.gl.context.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C08162AF32F003E6DB5 /* jit.gl.context.h */; };
+		167F4C8F162AF32F003E6DB5 /* jit.gl.context.view.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C09162AF32F003E6DB5 /* jit.gl.context.view.h */; };
+		167F4C90162AF32F003E6DB5 /* jit.gl.drawinfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C0A162AF32F003E6DB5 /* jit.gl.drawinfo.h */; };
+		167F4C91162AF32F003E6DB5 /* jit.gl.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C0B162AF32F003E6DB5 /* jit.gl.h */; };
+		167F4C92162AF32F003E6DB5 /* jit.gl.ob3d.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C0C162AF32F003E6DB5 /* jit.gl.ob3d.h */; };
+		167F4C93162AF32F003E6DB5 /* jit.gl.pixelformat.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C0D162AF32F003E6DB5 /* jit.gl.pixelformat.h */; };
+		167F4C94162AF32F003E6DB5 /* jit.gl.procs.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C0E162AF32F003E6DB5 /* jit.gl.procs.h */; };
+		167F4C95162AF32F003E6DB5 /* jit.gl.support.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C0F162AF32F003E6DB5 /* jit.gl.support.h */; };
+		167F4C96162AF32F003E6DB5 /* jit.glext.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C10162AF32F003E6DB5 /* jit.glext.h */; };
+		167F4C97162AF32F003E6DB5 /* jit.gworld.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C11162AF32F003E6DB5 /* jit.gworld.h */; };
+		167F4C98162AF32F003E6DB5 /* jit.half.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C12162AF32F003E6DB5 /* jit.half.h */; };
+		167F4C99162AF32F003E6DB5 /* jit.linklist.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C13162AF32F003E6DB5 /* jit.linklist.h */; };
+		167F4C9A162AF32F003E6DB5 /* jit.mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C14162AF32F003E6DB5 /* jit.mac.h */; };
+		167F4C9B162AF32F003E6DB5 /* jit.math.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C15162AF32F003E6DB5 /* jit.math.h */; };
+		167F4C9C162AF32F003E6DB5 /* jit.matrix.util.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C16162AF32F003E6DB5 /* jit.matrix.util.h */; };
+		167F4C9D162AF32F003E6DB5 /* jit.max.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C17162AF32F003E6DB5 /* jit.max.h */; };
+		167F4C9E162AF32F003E6DB5 /* jit.namespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C18162AF32F003E6DB5 /* jit.namespace.h */; };
+		167F4C9F162AF32F003E6DB5 /* jit.op.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C19162AF32F003E6DB5 /* jit.op.h */; };
+		167F4CA0162AF32F003E6DB5 /* jit.parallel.utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C1A162AF32F003E6DB5 /* jit.parallel.utils.h */; };
+		167F4CA1162AF32F003E6DB5 /* jit.platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C1B162AF32F003E6DB5 /* jit.platform.h */; };
+		167F4CA2162AF32F003E6DB5 /* jit.qt.codec.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C1C162AF32F003E6DB5 /* jit.qt.codec.h */; };
+		167F4CA3162AF32F003E6DB5 /* jit.qt.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C1D162AF32F003E6DB5 /* jit.qt.h */; };
+		167F4CA4162AF32F003E6DB5 /* jit.symbols.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C1E162AF32F003E6DB5 /* jit.symbols.h */; };
+		167F4CA5162AF32F003E6DB5 /* jit.vecmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C1F162AF32F003E6DB5 /* jit.vecmath.h */; };
+		167F4CA6162AF32F003E6DB5 /* jit.wglext.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C20162AF32F003E6DB5 /* jit.wglext.h */; };
+		167F4CA7162AF32F003E6DB5 /* jit.window.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C21162AF32F003E6DB5 /* jit.window.h */; };
+		167F4CA9162AF32F003E6DB5 /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167F4C23162AF32F003E6DB5 /* JitterAPI.framework */; };
+		167F4CAA162AF32F003E6DB5 /* max.jit.mop.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C24162AF32F003E6DB5 /* max.jit.mop.h */; };
+		167F4CB5162AF32F003E6DB5 /* commonsyms.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C31162AF32F003E6DB5 /* commonsyms.h */; };
+		167F4CB6162AF32F003E6DB5 /* edit.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C32162AF32F003E6DB5 /* edit.h */; };
+		167F4CB7162AF32F003E6DB5 /* ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C33162AF32F003E6DB5 /* ext.h */; };
+		167F4CB8162AF32F003E6DB5 /* ext_anim.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C34162AF32F003E6DB5 /* ext_anim.h */; };
+		167F4CB9162AF32F003E6DB5 /* ext_atomarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C35162AF32F003E6DB5 /* ext_atomarray.h */; };
+		167F4CBA162AF32F003E6DB5 /* ext_atomic.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C36162AF32F003E6DB5 /* ext_atomic.h */; };
+		167F4CBB162AF32F003E6DB5 /* ext_backgroundtask.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C37162AF32F003E6DB5 /* ext_backgroundtask.h */; };
+		167F4CBC162AF32F003E6DB5 /* ext_byteorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C38162AF32F003E6DB5 /* ext_byteorder.h */; };
+		167F4CBD162AF32F003E6DB5 /* ext_charset.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C39162AF32F003E6DB5 /* ext_charset.h */; };
+		167F4CBE162AF32F003E6DB5 /* ext_colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C3A162AF32F003E6DB5 /* ext_colors.h */; };
+		167F4CBF162AF32F003E6DB5 /* ext_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C3B162AF32F003E6DB5 /* ext_common.h */; };
+		167F4CC0162AF32F003E6DB5 /* ext_critical.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C3C162AF32F003E6DB5 /* ext_critical.h */; };
+		167F4CC1162AF32F003E6DB5 /* ext_database.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C3D162AF32F003E6DB5 /* ext_database.h */; };
+		167F4CC2162AF32F003E6DB5 /* ext_default.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C3E162AF32F003E6DB5 /* ext_default.h */; };
+		167F4CC3162AF32F003E6DB5 /* ext_dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C3F162AF32F003E6DB5 /* ext_dictionary.h */; };
+		167F4CC4162AF32F003E6DB5 /* ext_dictobj.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C40162AF32F003E6DB5 /* ext_dictobj.h */; };
+		167F4CC5162AF32F003E6DB5 /* ext_drag.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C41162AF32F003E6DB5 /* ext_drag.h */; };
+		167F4CC6162AF32F003E6DB5 /* ext_event.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C42162AF32F003E6DB5 /* ext_event.h */; };
+		167F4CC7162AF32F003E6DB5 /* ext_expr.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C43162AF32F003E6DB5 /* ext_expr.h */; };
+		167F4CC8162AF32F003E6DB5 /* ext_fun.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C44162AF32F003E6DB5 /* ext_fun.h */; };
+		167F4CC9162AF32F003E6DB5 /* ext_globalsymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C45162AF32F003E6DB5 /* ext_globalsymbol.h */; };
+		167F4CCA162AF32F003E6DB5 /* ext_hashtab.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C46162AF32F003E6DB5 /* ext_hashtab.h */; };
+		167F4CCB162AF32F003E6DB5 /* ext_itm.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C47162AF32F003E6DB5 /* ext_itm.h */; };
+		167F4CCC162AF32F003E6DB5 /* ext_linklist.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C48162AF32F003E6DB5 /* ext_linklist.h */; };
+		167F4CCD162AF32F003E6DB5 /* ext_maxtypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C49162AF32F003E6DB5 /* ext_maxtypes.h */; };
+		167F4CCE162AF32F003E6DB5 /* ext_menu.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C4A162AF32F003E6DB5 /* ext_menu.h */; };
+		167F4CCF162AF32F003E6DB5 /* ext_mess.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C4B162AF32F003E6DB5 /* ext_mess.h */; };
+		167F4CD0162AF32F003E6DB5 /* ext_midi.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C4C162AF32F003E6DB5 /* ext_midi.h */; };
+		167F4CD1162AF32F003E6DB5 /* ext_numc.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C4D162AF32F003E6DB5 /* ext_numc.h */; };
+		167F4CD2162AF32F003E6DB5 /* ext_obex.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C4E162AF32F003E6DB5 /* ext_obex.h */; };
+		167F4CD3162AF32F003E6DB5 /* ext_obex_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C4F162AF32F003E6DB5 /* ext_obex_util.h */; };
+		167F4CD4162AF32F003E6DB5 /* ext_obstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C50162AF32F003E6DB5 /* ext_obstring.h */; };
+		167F4CD5162AF32F003E6DB5 /* ext_oms.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C51162AF32F003E6DB5 /* ext_oms.h */; };
+		167F4CD6162AF32F003E6DB5 /* ext_parameter.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C52162AF32F003E6DB5 /* ext_parameter.h */; };
+		167F4CD7162AF32F003E6DB5 /* ext_path.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C53162AF32F003E6DB5 /* ext_path.h */; };
+		167F4CD8162AF32F003E6DB5 /* ext_preferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C54162AF32F003E6DB5 /* ext_preferences.h */; };
+		167F4CD9162AF32F003E6DB5 /* ext_prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C55162AF32F003E6DB5 /* ext_prefix.h */; };
+		167F4CDA162AF32F003E6DB5 /* ext_proto.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C56162AF32F003E6DB5 /* ext_proto.h */; };
+		167F4CDB162AF32F003E6DB5 /* ext_proto_win.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C57162AF32F003E6DB5 /* ext_proto_win.h */; };
+		167F4CDC162AF32F003E6DB5 /* ext_qtimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C58162AF32F003E6DB5 /* ext_qtimage.h */; };
+		167F4CDD162AF32F003E6DB5 /* ext_qtstubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C59162AF32F003E6DB5 /* ext_qtstubs.h */; };
+		167F4CDE162AF32F003E6DB5 /* ext_quickmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C5A162AF32F003E6DB5 /* ext_quickmap.h */; };
+		167F4CDF162AF32F003E6DB5 /* ext_sndfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C5B162AF32F003E6DB5 /* ext_sndfile.h */; };
+		167F4CE0162AF32F003E6DB5 /* ext_strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C5C162AF32F003E6DB5 /* ext_strings.h */; };
+		167F4CE1162AF32F003E6DB5 /* ext_support.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C5D162AF32F003E6DB5 /* ext_support.h */; };
+		167F4CE2162AF32F003E6DB5 /* ext_symobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C5E162AF32F003E6DB5 /* ext_symobject.h */; };
+		167F4CE3162AF32F003E6DB5 /* ext_sysfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C5F162AF32F003E6DB5 /* ext_sysfile.h */; };
+		167F4CE4162AF32F003E6DB5 /* ext_sysmem.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C60162AF32F003E6DB5 /* ext_sysmem.h */; };
+		167F4CE5162AF32F003E6DB5 /* ext_sysmidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C61162AF32F003E6DB5 /* ext_sysmidi.h */; };
+		167F4CE6162AF32F003E6DB5 /* ext_sysparallel.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C62162AF32F003E6DB5 /* ext_sysparallel.h */; };
+		167F4CE7162AF32F003E6DB5 /* ext_sysprocess.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C63162AF32F003E6DB5 /* ext_sysprocess.h */; };
+		167F4CE8162AF32F003E6DB5 /* ext_syssem.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C64162AF32F003E6DB5 /* ext_syssem.h */; };
+		167F4CE9162AF32F003E6DB5 /* ext_sysshmem.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C65162AF32F003E6DB5 /* ext_sysshmem.h */; };
+		167F4CEA162AF32F003E6DB5 /* ext_systhread.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C66162AF32F003E6DB5 /* ext_systhread.h */; };
+		167F4CEB162AF32F003E6DB5 /* ext_systime.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C67162AF32F003E6DB5 /* ext_systime.h */; };
+		167F4CEC162AF32F003E6DB5 /* ext_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C68162AF32F003E6DB5 /* ext_time.h */; };
+		167F4CED162AF32F003E6DB5 /* ext_timeline.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C69162AF32F003E6DB5 /* ext_timeline.h */; };
+		167F4CEE162AF32F003E6DB5 /* ext_track.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C6A162AF32F003E6DB5 /* ext_track.h */; };
+		167F4CEF162AF32F003E6DB5 /* ext_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C6B162AF32F003E6DB5 /* ext_types.h */; };
+		167F4CF0162AF32F003E6DB5 /* ext_user.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C6C162AF32F003E6DB5 /* ext_user.h */; };
+		167F4CF1162AF32F003E6DB5 /* ext_wind.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C6D162AF32F003E6DB5 /* ext_wind.h */; };
+		167F4CF2162AF32F003E6DB5 /* ext_xmltree.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C6E162AF32F003E6DB5 /* ext_xmltree.h */; };
+		167F4CF3162AF32F003E6DB5 /* indexmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C6F162AF32F003E6DB5 /* indexmap.h */; };
+		167F4CF4162AF32F003E6DB5 /* jdataview.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C70162AF32F003E6DB5 /* jdataview.h */; };
+		167F4CF5162AF32F003E6DB5 /* jgraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C71162AF32F003E6DB5 /* jgraphics.h */; };
+		167F4CF6162AF32F003E6DB5 /* jpatcher_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C72162AF32F003E6DB5 /* jpatcher_api.h */; };
+		167F4CF7162AF32F003E6DB5 /* jpatcher_syms.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C73162AF32F003E6DB5 /* jpatcher_syms.h */; };
+		167F4CF8162AF32F003E6DB5 /* jpatcher_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C74162AF32F003E6DB5 /* jpatcher_utils.h */; };
+		167F4CF9162AF32F003E6DB5 /* macho-gl-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C75162AF32F003E6DB5 /* macho-gl-prefix.pch */; };
+		167F4CFA162AF32F003E6DB5 /* macho-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 167F4C76162AF32F003E6DB5 /* macho-prefix.pch */; };
+		22301F4A10D7BC6C00C1989F /* JitterAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22301F4910D7BC6C00C1989F /* JitterAPI.framework */; };
+		2FBBEADE08F335360078DB84 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54266BCE05E6E9780000000C /* MaxAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		167F4BF0162AF284003E6DB5 /* jit.dmxmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jit.dmxmap.c; sourceTree = "<group>"; };
+		167F4BF1162AF284003E6DB5 /* max.jit.dmxmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = max.jit.dmxmap.c; sourceTree = "<group>"; };
+		167F4BFA162AF32F003E6DB5 /* jit.agl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.agl.h; sourceTree = "<group>"; };
+		167F4BFB162AF32F003E6DB5 /* jit.altivec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.altivec.h; sourceTree = "<group>"; };
+		167F4BFC162AF32F003E6DB5 /* jit.bin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.bin.h; sourceTree = "<group>"; };
+		167F4BFD162AF32F003E6DB5 /* jit.byteorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.byteorder.h; sourceTree = "<group>"; };
+		167F4BFE162AF32F003E6DB5 /* jit.common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.common.h; sourceTree = "<group>"; };
+		167F4BFF162AF32F003E6DB5 /* jit.cpost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.cpost.h; sourceTree = "<group>"; };
+		167F4C00162AF32F003E6DB5 /* jit.critical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.critical.h; sourceTree = "<group>"; };
+		167F4C01162AF32F003E6DB5 /* jit.cubicspline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.cubicspline.h; sourceTree = "<group>"; };
+		167F4C02162AF32F003E6DB5 /* jit.error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.error.h; sourceTree = "<group>"; };
+		167F4C03162AF32F003E6DB5 /* jit.file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.file.h; sourceTree = "<group>"; };
+		167F4C04162AF32F003E6DB5 /* jit.fixmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.fixmath.h; sourceTree = "<group>"; };
+		167F4C05162AF32F003E6DB5 /* jit.functor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.functor.h; sourceTree = "<group>"; };
+		167F4C06162AF32F003E6DB5 /* jit.gl.cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.cache.h; sourceTree = "<group>"; };
+		167F4C07162AF32F003E6DB5 /* jit.gl.chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.chunk.h; sourceTree = "<group>"; };
+		167F4C08162AF32F003E6DB5 /* jit.gl.context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.context.h; sourceTree = "<group>"; };
+		167F4C09162AF32F003E6DB5 /* jit.gl.context.view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.context.view.h; sourceTree = "<group>"; };
+		167F4C0A162AF32F003E6DB5 /* jit.gl.drawinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.drawinfo.h; sourceTree = "<group>"; };
+		167F4C0B162AF32F003E6DB5 /* jit.gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.h; sourceTree = "<group>"; };
+		167F4C0C162AF32F003E6DB5 /* jit.gl.ob3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.ob3d.h; sourceTree = "<group>"; };
+		167F4C0D162AF32F003E6DB5 /* jit.gl.pixelformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.pixelformat.h; sourceTree = "<group>"; };
+		167F4C0E162AF32F003E6DB5 /* jit.gl.procs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.procs.h; sourceTree = "<group>"; };
+		167F4C0F162AF32F003E6DB5 /* jit.gl.support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gl.support.h; sourceTree = "<group>"; };
+		167F4C10162AF32F003E6DB5 /* jit.glext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.glext.h; sourceTree = "<group>"; };
+		167F4C11162AF32F003E6DB5 /* jit.gworld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.gworld.h; sourceTree = "<group>"; };
+		167F4C12162AF32F003E6DB5 /* jit.half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.half.h; sourceTree = "<group>"; };
+		167F4C13162AF32F003E6DB5 /* jit.linklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.linklist.h; sourceTree = "<group>"; };
+		167F4C14162AF32F003E6DB5 /* jit.mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.mac.h; sourceTree = "<group>"; };
+		167F4C15162AF32F003E6DB5 /* jit.math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.math.h; sourceTree = "<group>"; };
+		167F4C16162AF32F003E6DB5 /* jit.matrix.util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.matrix.util.h; sourceTree = "<group>"; };
+		167F4C17162AF32F003E6DB5 /* jit.max.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.max.h; sourceTree = "<group>"; };
+		167F4C18162AF32F003E6DB5 /* jit.namespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.namespace.h; sourceTree = "<group>"; };
+		167F4C19162AF32F003E6DB5 /* jit.op.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.op.h; sourceTree = "<group>"; };
+		167F4C1A162AF32F003E6DB5 /* jit.parallel.utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.parallel.utils.h; sourceTree = "<group>"; };
+		167F4C1B162AF32F003E6DB5 /* jit.platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.platform.h; sourceTree = "<group>"; };
+		167F4C1C162AF32F003E6DB5 /* jit.qt.codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.qt.codec.h; sourceTree = "<group>"; };
+		167F4C1D162AF32F003E6DB5 /* jit.qt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.qt.h; sourceTree = "<group>"; };
+		167F4C1E162AF32F003E6DB5 /* jit.symbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.symbols.h; sourceTree = "<group>"; };
+		167F4C1F162AF32F003E6DB5 /* jit.vecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.vecmath.h; sourceTree = "<group>"; };
+		167F4C20162AF32F003E6DB5 /* jit.wglext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.wglext.h; sourceTree = "<group>"; };
+		167F4C21162AF32F003E6DB5 /* jit.window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jit.window.h; sourceTree = "<group>"; };
+		167F4C23162AF32F003E6DB5 /* JitterAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JitterAPI.framework; sourceTree = "<group>"; };
+		167F4C24162AF32F003E6DB5 /* max.jit.mop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = max.jit.mop.h; sourceTree = "<group>"; };
+		167F4C31162AF32F003E6DB5 /* commonsyms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commonsyms.h; sourceTree = "<group>"; };
+		167F4C32162AF32F003E6DB5 /* edit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = edit.h; sourceTree = "<group>"; };
+		167F4C33162AF32F003E6DB5 /* ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext.h; sourceTree = "<group>"; };
+		167F4C34162AF32F003E6DB5 /* ext_anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_anim.h; sourceTree = "<group>"; };
+		167F4C35162AF32F003E6DB5 /* ext_atomarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_atomarray.h; sourceTree = "<group>"; };
+		167F4C36162AF32F003E6DB5 /* ext_atomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_atomic.h; sourceTree = "<group>"; };
+		167F4C37162AF32F003E6DB5 /* ext_backgroundtask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_backgroundtask.h; sourceTree = "<group>"; };
+		167F4C38162AF32F003E6DB5 /* ext_byteorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_byteorder.h; sourceTree = "<group>"; };
+		167F4C39162AF32F003E6DB5 /* ext_charset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_charset.h; sourceTree = "<group>"; };
+		167F4C3A162AF32F003E6DB5 /* ext_colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_colors.h; sourceTree = "<group>"; };
+		167F4C3B162AF32F003E6DB5 /* ext_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_common.h; sourceTree = "<group>"; };
+		167F4C3C162AF32F003E6DB5 /* ext_critical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_critical.h; sourceTree = "<group>"; };
+		167F4C3D162AF32F003E6DB5 /* ext_database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_database.h; sourceTree = "<group>"; };
+		167F4C3E162AF32F003E6DB5 /* ext_default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_default.h; sourceTree = "<group>"; };
+		167F4C3F162AF32F003E6DB5 /* ext_dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_dictionary.h; sourceTree = "<group>"; };
+		167F4C40162AF32F003E6DB5 /* ext_dictobj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_dictobj.h; sourceTree = "<group>"; };
+		167F4C41162AF32F003E6DB5 /* ext_drag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_drag.h; sourceTree = "<group>"; };
+		167F4C42162AF32F003E6DB5 /* ext_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_event.h; sourceTree = "<group>"; };
+		167F4C43162AF32F003E6DB5 /* ext_expr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_expr.h; sourceTree = "<group>"; };
+		167F4C44162AF32F003E6DB5 /* ext_fun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_fun.h; sourceTree = "<group>"; };
+		167F4C45162AF32F003E6DB5 /* ext_globalsymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_globalsymbol.h; sourceTree = "<group>"; };
+		167F4C46162AF32F003E6DB5 /* ext_hashtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_hashtab.h; sourceTree = "<group>"; };
+		167F4C47162AF32F003E6DB5 /* ext_itm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_itm.h; sourceTree = "<group>"; };
+		167F4C48162AF32F003E6DB5 /* ext_linklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_linklist.h; sourceTree = "<group>"; };
+		167F4C49162AF32F003E6DB5 /* ext_maxtypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_maxtypes.h; sourceTree = "<group>"; };
+		167F4C4A162AF32F003E6DB5 /* ext_menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_menu.h; sourceTree = "<group>"; };
+		167F4C4B162AF32F003E6DB5 /* ext_mess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_mess.h; sourceTree = "<group>"; };
+		167F4C4C162AF32F003E6DB5 /* ext_midi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_midi.h; sourceTree = "<group>"; };
+		167F4C4D162AF32F003E6DB5 /* ext_numc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_numc.h; sourceTree = "<group>"; };
+		167F4C4E162AF32F003E6DB5 /* ext_obex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_obex.h; sourceTree = "<group>"; };
+		167F4C4F162AF32F003E6DB5 /* ext_obex_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_obex_util.h; sourceTree = "<group>"; };
+		167F4C50162AF32F003E6DB5 /* ext_obstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_obstring.h; sourceTree = "<group>"; };
+		167F4C51162AF32F003E6DB5 /* ext_oms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_oms.h; sourceTree = "<group>"; };
+		167F4C52162AF32F003E6DB5 /* ext_parameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_parameter.h; sourceTree = "<group>"; };
+		167F4C53162AF32F003E6DB5 /* ext_path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_path.h; sourceTree = "<group>"; };
+		167F4C54162AF32F003E6DB5 /* ext_preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_preferences.h; sourceTree = "<group>"; };
+		167F4C55162AF32F003E6DB5 /* ext_prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_prefix.h; sourceTree = "<group>"; };
+		167F4C56162AF32F003E6DB5 /* ext_proto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_proto.h; sourceTree = "<group>"; };
+		167F4C57162AF32F003E6DB5 /* ext_proto_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_proto_win.h; sourceTree = "<group>"; };
+		167F4C58162AF32F003E6DB5 /* ext_qtimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_qtimage.h; sourceTree = "<group>"; };
+		167F4C59162AF32F003E6DB5 /* ext_qtstubs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_qtstubs.h; sourceTree = "<group>"; };
+		167F4C5A162AF32F003E6DB5 /* ext_quickmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_quickmap.h; sourceTree = "<group>"; };
+		167F4C5B162AF32F003E6DB5 /* ext_sndfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_sndfile.h; sourceTree = "<group>"; };
+		167F4C5C162AF32F003E6DB5 /* ext_strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_strings.h; sourceTree = "<group>"; };
+		167F4C5D162AF32F003E6DB5 /* ext_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_support.h; sourceTree = "<group>"; };
+		167F4C5E162AF32F003E6DB5 /* ext_symobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_symobject.h; sourceTree = "<group>"; };
+		167F4C5F162AF32F003E6DB5 /* ext_sysfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_sysfile.h; sourceTree = "<group>"; };
+		167F4C60162AF32F003E6DB5 /* ext_sysmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_sysmem.h; sourceTree = "<group>"; };
+		167F4C61162AF32F003E6DB5 /* ext_sysmidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_sysmidi.h; sourceTree = "<group>"; };
+		167F4C62162AF32F003E6DB5 /* ext_sysparallel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_sysparallel.h; sourceTree = "<group>"; };
+		167F4C63162AF32F003E6DB5 /* ext_sysprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_sysprocess.h; sourceTree = "<group>"; };
+		167F4C64162AF32F003E6DB5 /* ext_syssem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_syssem.h; sourceTree = "<group>"; };
+		167F4C65162AF32F003E6DB5 /* ext_sysshmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_sysshmem.h; sourceTree = "<group>"; };
+		167F4C66162AF32F003E6DB5 /* ext_systhread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_systhread.h; sourceTree = "<group>"; };
+		167F4C67162AF32F003E6DB5 /* ext_systime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_systime.h; sourceTree = "<group>"; };
+		167F4C68162AF32F003E6DB5 /* ext_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_time.h; sourceTree = "<group>"; };
+		167F4C69162AF32F003E6DB5 /* ext_timeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_timeline.h; sourceTree = "<group>"; };
+		167F4C6A162AF32F003E6DB5 /* ext_track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_track.h; sourceTree = "<group>"; };
+		167F4C6B162AF32F003E6DB5 /* ext_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_types.h; sourceTree = "<group>"; };
+		167F4C6C162AF32F003E6DB5 /* ext_user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_user.h; sourceTree = "<group>"; };
+		167F4C6D162AF32F003E6DB5 /* ext_wind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_wind.h; sourceTree = "<group>"; };
+		167F4C6E162AF32F003E6DB5 /* ext_xmltree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ext_xmltree.h; sourceTree = "<group>"; };
+		167F4C6F162AF32F003E6DB5 /* indexmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = indexmap.h; sourceTree = "<group>"; };
+		167F4C70162AF32F003E6DB5 /* jdataview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jdataview.h; sourceTree = "<group>"; };
+		167F4C71162AF32F003E6DB5 /* jgraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jgraphics.h; sourceTree = "<group>"; };
+		167F4C72162AF32F003E6DB5 /* jpatcher_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpatcher_api.h; sourceTree = "<group>"; };
+		167F4C73162AF32F003E6DB5 /* jpatcher_syms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpatcher_syms.h; sourceTree = "<group>"; };
+		167F4C74162AF32F003E6DB5 /* jpatcher_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpatcher_utils.h; sourceTree = "<group>"; };
+		167F4C75162AF32F003E6DB5 /* macho-gl-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "macho-gl-prefix.pch"; sourceTree = "<group>"; };
+		167F4C76162AF32F003E6DB5 /* macho-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "macho-prefix.pch"; sourceTree = "<group>"; };
+		167F4D0F162AF38A003E6DB5 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = "<group>"; };
+		167F4D2C162AF48B003E6DB5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22301F4910D7BC6C00C1989F /* JitterAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitterAPI.framework; path = "libs/jit-includes/JitterAPI.framework"; sourceTree = "<group>"; };
+		2FBBEAE508F335360078DB84 /* jit.dmxmap.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jit.dmxmap.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+		54266BCE05E6E9780000000C /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "libs/max-includes/MaxAPI.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBBEADE08F335360078DB84 /* MaxAPI.framework in Frameworks */,
+				22301F4A10D7BC6C00C1989F /* JitterAPI.framework in Frameworks */,
+				167F4CA9162AF32F003E6DB5 /* JitterAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				167F4D2C162AF48B003E6DB5 /* Info.plist */,
+				167F4D0F162AF38A003E6DB5 /* maxmspsdk.xcconfig */,
+				167F4BEF162AF284003E6DB5 /* src */,
+				167F4BF8162AF32F003E6DB5 /* libs */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				54266BCE05E6E9780000000C /* MaxAPI.framework */,
+				22301F4910D7BC6C00C1989F /* JitterAPI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		167F4BEF162AF284003E6DB5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				167F4BF0162AF284003E6DB5 /* jit.dmxmap.c */,
+				167F4BF1162AF284003E6DB5 /* max.jit.dmxmap.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		167F4BF8162AF32F003E6DB5 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				167F4BF9162AF32F003E6DB5 /* jit-includes */,
+				167F4C25162AF32F003E6DB5 /* max-includes */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		167F4BF9162AF32F003E6DB5 /* jit-includes */ = {
+			isa = PBXGroup;
+			children = (
+				167F4BFA162AF32F003E6DB5 /* jit.agl.h */,
+				167F4BFB162AF32F003E6DB5 /* jit.altivec.h */,
+				167F4BFC162AF32F003E6DB5 /* jit.bin.h */,
+				167F4BFD162AF32F003E6DB5 /* jit.byteorder.h */,
+				167F4BFE162AF32F003E6DB5 /* jit.common.h */,
+				167F4BFF162AF32F003E6DB5 /* jit.cpost.h */,
+				167F4C00162AF32F003E6DB5 /* jit.critical.h */,
+				167F4C01162AF32F003E6DB5 /* jit.cubicspline.h */,
+				167F4C02162AF32F003E6DB5 /* jit.error.h */,
+				167F4C03162AF32F003E6DB5 /* jit.file.h */,
+				167F4C04162AF32F003E6DB5 /* jit.fixmath.h */,
+				167F4C05162AF32F003E6DB5 /* jit.functor.h */,
+				167F4C06162AF32F003E6DB5 /* jit.gl.cache.h */,
+				167F4C07162AF32F003E6DB5 /* jit.gl.chunk.h */,
+				167F4C08162AF32F003E6DB5 /* jit.gl.context.h */,
+				167F4C09162AF32F003E6DB5 /* jit.gl.context.view.h */,
+				167F4C0A162AF32F003E6DB5 /* jit.gl.drawinfo.h */,
+				167F4C0B162AF32F003E6DB5 /* jit.gl.h */,
+				167F4C0C162AF32F003E6DB5 /* jit.gl.ob3d.h */,
+				167F4C0D162AF32F003E6DB5 /* jit.gl.pixelformat.h */,
+				167F4C0E162AF32F003E6DB5 /* jit.gl.procs.h */,
+				167F4C0F162AF32F003E6DB5 /* jit.gl.support.h */,
+				167F4C10162AF32F003E6DB5 /* jit.glext.h */,
+				167F4C11162AF32F003E6DB5 /* jit.gworld.h */,
+				167F4C12162AF32F003E6DB5 /* jit.half.h */,
+				167F4C13162AF32F003E6DB5 /* jit.linklist.h */,
+				167F4C14162AF32F003E6DB5 /* jit.mac.h */,
+				167F4C15162AF32F003E6DB5 /* jit.math.h */,
+				167F4C16162AF32F003E6DB5 /* jit.matrix.util.h */,
+				167F4C17162AF32F003E6DB5 /* jit.max.h */,
+				167F4C18162AF32F003E6DB5 /* jit.namespace.h */,
+				167F4C19162AF32F003E6DB5 /* jit.op.h */,
+				167F4C1A162AF32F003E6DB5 /* jit.parallel.utils.h */,
+				167F4C1B162AF32F003E6DB5 /* jit.platform.h */,
+				167F4C1C162AF32F003E6DB5 /* jit.qt.codec.h */,
+				167F4C1D162AF32F003E6DB5 /* jit.qt.h */,
+				167F4C1E162AF32F003E6DB5 /* jit.symbols.h */,
+				167F4C1F162AF32F003E6DB5 /* jit.vecmath.h */,
+				167F4C20162AF32F003E6DB5 /* jit.wglext.h */,
+				167F4C21162AF32F003E6DB5 /* jit.window.h */,
+				167F4C23162AF32F003E6DB5 /* JitterAPI.framework */,
+				167F4C24162AF32F003E6DB5 /* max.jit.mop.h */,
+			);
+			path = "jit-includes";
+			sourceTree = "<group>";
+		};
+		167F4C25162AF32F003E6DB5 /* max-includes */ = {
+			isa = PBXGroup;
+			children = (
+				167F4C31162AF32F003E6DB5 /* commonsyms.h */,
+				167F4C32162AF32F003E6DB5 /* edit.h */,
+				167F4C33162AF32F003E6DB5 /* ext.h */,
+				167F4C34162AF32F003E6DB5 /* ext_anim.h */,
+				167F4C35162AF32F003E6DB5 /* ext_atomarray.h */,
+				167F4C36162AF32F003E6DB5 /* ext_atomic.h */,
+				167F4C37162AF32F003E6DB5 /* ext_backgroundtask.h */,
+				167F4C38162AF32F003E6DB5 /* ext_byteorder.h */,
+				167F4C39162AF32F003E6DB5 /* ext_charset.h */,
+				167F4C3A162AF32F003E6DB5 /* ext_colors.h */,
+				167F4C3B162AF32F003E6DB5 /* ext_common.h */,
+				167F4C3C162AF32F003E6DB5 /* ext_critical.h */,
+				167F4C3D162AF32F003E6DB5 /* ext_database.h */,
+				167F4C3E162AF32F003E6DB5 /* ext_default.h */,
+				167F4C3F162AF32F003E6DB5 /* ext_dictionary.h */,
+				167F4C40162AF32F003E6DB5 /* ext_dictobj.h */,
+				167F4C41162AF32F003E6DB5 /* ext_drag.h */,
+				167F4C42162AF32F003E6DB5 /* ext_event.h */,
+				167F4C43162AF32F003E6DB5 /* ext_expr.h */,
+				167F4C44162AF32F003E6DB5 /* ext_fun.h */,
+				167F4C45162AF32F003E6DB5 /* ext_globalsymbol.h */,
+				167F4C46162AF32F003E6DB5 /* ext_hashtab.h */,
+				167F4C47162AF32F003E6DB5 /* ext_itm.h */,
+				167F4C48162AF32F003E6DB5 /* ext_linklist.h */,
+				167F4C49162AF32F003E6DB5 /* ext_maxtypes.h */,
+				167F4C4A162AF32F003E6DB5 /* ext_menu.h */,
+				167F4C4B162AF32F003E6DB5 /* ext_mess.h */,
+				167F4C4C162AF32F003E6DB5 /* ext_midi.h */,
+				167F4C4D162AF32F003E6DB5 /* ext_numc.h */,
+				167F4C4E162AF32F003E6DB5 /* ext_obex.h */,
+				167F4C4F162AF32F003E6DB5 /* ext_obex_util.h */,
+				167F4C50162AF32F003E6DB5 /* ext_obstring.h */,
+				167F4C51162AF32F003E6DB5 /* ext_oms.h */,
+				167F4C52162AF32F003E6DB5 /* ext_parameter.h */,
+				167F4C53162AF32F003E6DB5 /* ext_path.h */,
+				167F4C54162AF32F003E6DB5 /* ext_preferences.h */,
+				167F4C55162AF32F003E6DB5 /* ext_prefix.h */,
+				167F4C56162AF32F003E6DB5 /* ext_proto.h */,
+				167F4C57162AF32F003E6DB5 /* ext_proto_win.h */,
+				167F4C58162AF32F003E6DB5 /* ext_qtimage.h */,
+				167F4C59162AF32F003E6DB5 /* ext_qtstubs.h */,
+				167F4C5A162AF32F003E6DB5 /* ext_quickmap.h */,
+				167F4C5B162AF32F003E6DB5 /* ext_sndfile.h */,
+				167F4C5C162AF32F003E6DB5 /* ext_strings.h */,
+				167F4C5D162AF32F003E6DB5 /* ext_support.h */,
+				167F4C5E162AF32F003E6DB5 /* ext_symobject.h */,
+				167F4C5F162AF32F003E6DB5 /* ext_sysfile.h */,
+				167F4C60162AF32F003E6DB5 /* ext_sysmem.h */,
+				167F4C61162AF32F003E6DB5 /* ext_sysmidi.h */,
+				167F4C62162AF32F003E6DB5 /* ext_sysparallel.h */,
+				167F4C63162AF32F003E6DB5 /* ext_sysprocess.h */,
+				167F4C64162AF32F003E6DB5 /* ext_syssem.h */,
+				167F4C65162AF32F003E6DB5 /* ext_sysshmem.h */,
+				167F4C66162AF32F003E6DB5 /* ext_systhread.h */,
+				167F4C67162AF32F003E6DB5 /* ext_systime.h */,
+				167F4C68162AF32F003E6DB5 /* ext_time.h */,
+				167F4C69162AF32F003E6DB5 /* ext_timeline.h */,
+				167F4C6A162AF32F003E6DB5 /* ext_track.h */,
+				167F4C6B162AF32F003E6DB5 /* ext_types.h */,
+				167F4C6C162AF32F003E6DB5 /* ext_user.h */,
+				167F4C6D162AF32F003E6DB5 /* ext_wind.h */,
+				167F4C6E162AF32F003E6DB5 /* ext_xmltree.h */,
+				167F4C6F162AF32F003E6DB5 /* indexmap.h */,
+				167F4C70162AF32F003E6DB5 /* jdataview.h */,
+				167F4C71162AF32F003E6DB5 /* jgraphics.h */,
+				167F4C72162AF32F003E6DB5 /* jpatcher_api.h */,
+				167F4C73162AF32F003E6DB5 /* jpatcher_syms.h */,
+				167F4C74162AF32F003E6DB5 /* jpatcher_utils.h */,
+				167F4C75162AF32F003E6DB5 /* macho-gl-prefix.pch */,
+				167F4C76162AF32F003E6DB5 /* macho-prefix.pch */,
+			);
+			path = "max-includes";
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* jit.dmxmap.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167F4C80162AF32F003E6DB5 /* jit.agl.h in Headers */,
+				167F4C81162AF32F003E6DB5 /* jit.altivec.h in Headers */,
+				167F4C82162AF32F003E6DB5 /* jit.bin.h in Headers */,
+				167F4C83162AF32F003E6DB5 /* jit.byteorder.h in Headers */,
+				167F4C84162AF32F003E6DB5 /* jit.common.h in Headers */,
+				167F4C85162AF32F003E6DB5 /* jit.cpost.h in Headers */,
+				167F4C86162AF32F003E6DB5 /* jit.critical.h in Headers */,
+				167F4C87162AF32F003E6DB5 /* jit.cubicspline.h in Headers */,
+				167F4C88162AF32F003E6DB5 /* jit.error.h in Headers */,
+				167F4C89162AF32F003E6DB5 /* jit.file.h in Headers */,
+				167F4C8A162AF32F003E6DB5 /* jit.fixmath.h in Headers */,
+				167F4C8B162AF32F003E6DB5 /* jit.functor.h in Headers */,
+				167F4C8C162AF32F003E6DB5 /* jit.gl.cache.h in Headers */,
+				167F4C8D162AF32F003E6DB5 /* jit.gl.chunk.h in Headers */,
+				167F4C8E162AF32F003E6DB5 /* jit.gl.context.h in Headers */,
+				167F4C8F162AF32F003E6DB5 /* jit.gl.context.view.h in Headers */,
+				167F4C90162AF32F003E6DB5 /* jit.gl.drawinfo.h in Headers */,
+				167F4C91162AF32F003E6DB5 /* jit.gl.h in Headers */,
+				167F4C92162AF32F003E6DB5 /* jit.gl.ob3d.h in Headers */,
+				167F4C93162AF32F003E6DB5 /* jit.gl.pixelformat.h in Headers */,
+				167F4C94162AF32F003E6DB5 /* jit.gl.procs.h in Headers */,
+				167F4C95162AF32F003E6DB5 /* jit.gl.support.h in Headers */,
+				167F4C96162AF32F003E6DB5 /* jit.glext.h in Headers */,
+				167F4C97162AF32F003E6DB5 /* jit.gworld.h in Headers */,
+				167F4C98162AF32F003E6DB5 /* jit.half.h in Headers */,
+				167F4C99162AF32F003E6DB5 /* jit.linklist.h in Headers */,
+				167F4C9A162AF32F003E6DB5 /* jit.mac.h in Headers */,
+				167F4C9B162AF32F003E6DB5 /* jit.math.h in Headers */,
+				167F4C9C162AF32F003E6DB5 /* jit.matrix.util.h in Headers */,
+				167F4C9D162AF32F003E6DB5 /* jit.max.h in Headers */,
+				167F4C9E162AF32F003E6DB5 /* jit.namespace.h in Headers */,
+				167F4C9F162AF32F003E6DB5 /* jit.op.h in Headers */,
+				167F4CA0162AF32F003E6DB5 /* jit.parallel.utils.h in Headers */,
+				167F4CA1162AF32F003E6DB5 /* jit.platform.h in Headers */,
+				167F4CA2162AF32F003E6DB5 /* jit.qt.codec.h in Headers */,
+				167F4CA3162AF32F003E6DB5 /* jit.qt.h in Headers */,
+				167F4CA4162AF32F003E6DB5 /* jit.symbols.h in Headers */,
+				167F4CA5162AF32F003E6DB5 /* jit.vecmath.h in Headers */,
+				167F4CA6162AF32F003E6DB5 /* jit.wglext.h in Headers */,
+				167F4CA7162AF32F003E6DB5 /* jit.window.h in Headers */,
+				167F4CAA162AF32F003E6DB5 /* max.jit.mop.h in Headers */,
+				167F4CB5162AF32F003E6DB5 /* commonsyms.h in Headers */,
+				167F4CB6162AF32F003E6DB5 /* edit.h in Headers */,
+				167F4CB7162AF32F003E6DB5 /* ext.h in Headers */,
+				167F4CB8162AF32F003E6DB5 /* ext_anim.h in Headers */,
+				167F4CB9162AF32F003E6DB5 /* ext_atomarray.h in Headers */,
+				167F4CBA162AF32F003E6DB5 /* ext_atomic.h in Headers */,
+				167F4CBB162AF32F003E6DB5 /* ext_backgroundtask.h in Headers */,
+				167F4CBC162AF32F003E6DB5 /* ext_byteorder.h in Headers */,
+				167F4CBD162AF32F003E6DB5 /* ext_charset.h in Headers */,
+				167F4CBE162AF32F003E6DB5 /* ext_colors.h in Headers */,
+				167F4CBF162AF32F003E6DB5 /* ext_common.h in Headers */,
+				167F4CC0162AF32F003E6DB5 /* ext_critical.h in Headers */,
+				167F4CC1162AF32F003E6DB5 /* ext_database.h in Headers */,
+				167F4CC2162AF32F003E6DB5 /* ext_default.h in Headers */,
+				167F4CC3162AF32F003E6DB5 /* ext_dictionary.h in Headers */,
+				167F4CC4162AF32F003E6DB5 /* ext_dictobj.h in Headers */,
+				167F4CC5162AF32F003E6DB5 /* ext_drag.h in Headers */,
+				167F4CC6162AF32F003E6DB5 /* ext_event.h in Headers */,
+				167F4CC7162AF32F003E6DB5 /* ext_expr.h in Headers */,
+				167F4CC8162AF32F003E6DB5 /* ext_fun.h in Headers */,
+				167F4CC9162AF32F003E6DB5 /* ext_globalsymbol.h in Headers */,
+				167F4CCA162AF32F003E6DB5 /* ext_hashtab.h in Headers */,
+				167F4CCB162AF32F003E6DB5 /* ext_itm.h in Headers */,
+				167F4CCC162AF32F003E6DB5 /* ext_linklist.h in Headers */,
+				167F4CCD162AF32F003E6DB5 /* ext_maxtypes.h in Headers */,
+				167F4CCE162AF32F003E6DB5 /* ext_menu.h in Headers */,
+				167F4CCF162AF32F003E6DB5 /* ext_mess.h in Headers */,
+				167F4CD0162AF32F003E6DB5 /* ext_midi.h in Headers */,
+				167F4CD1162AF32F003E6DB5 /* ext_numc.h in Headers */,
+				167F4CD2162AF32F003E6DB5 /* ext_obex.h in Headers */,
+				167F4CD3162AF32F003E6DB5 /* ext_obex_util.h in Headers */,
+				167F4CD4162AF32F003E6DB5 /* ext_obstring.h in Headers */,
+				167F4CD5162AF32F003E6DB5 /* ext_oms.h in Headers */,
+				167F4CD6162AF32F003E6DB5 /* ext_parameter.h in Headers */,
+				167F4CD7162AF32F003E6DB5 /* ext_path.h in Headers */,
+				167F4CD8162AF32F003E6DB5 /* ext_preferences.h in Headers */,
+				167F4CD9162AF32F003E6DB5 /* ext_prefix.h in Headers */,
+				167F4CDA162AF32F003E6DB5 /* ext_proto.h in Headers */,
+				167F4CDB162AF32F003E6DB5 /* ext_proto_win.h in Headers */,
+				167F4CDC162AF32F003E6DB5 /* ext_qtimage.h in Headers */,
+				167F4CDD162AF32F003E6DB5 /* ext_qtstubs.h in Headers */,
+				167F4CDE162AF32F003E6DB5 /* ext_quickmap.h in Headers */,
+				167F4CDF162AF32F003E6DB5 /* ext_sndfile.h in Headers */,
+				167F4CE0162AF32F003E6DB5 /* ext_strings.h in Headers */,
+				167F4CE1162AF32F003E6DB5 /* ext_support.h in Headers */,
+				167F4CE2162AF32F003E6DB5 /* ext_symobject.h in Headers */,
+				167F4CE3162AF32F003E6DB5 /* ext_sysfile.h in Headers */,
+				167F4CE4162AF32F003E6DB5 /* ext_sysmem.h in Headers */,
+				167F4CE5162AF32F003E6DB5 /* ext_sysmidi.h in Headers */,
+				167F4CE6162AF32F003E6DB5 /* ext_sysparallel.h in Headers */,
+				167F4CE7162AF32F003E6DB5 /* ext_sysprocess.h in Headers */,
+				167F4CE8162AF32F003E6DB5 /* ext_syssem.h in Headers */,
+				167F4CE9162AF32F003E6DB5 /* ext_sysshmem.h in Headers */,
+				167F4CEA162AF32F003E6DB5 /* ext_systhread.h in Headers */,
+				167F4CEB162AF32F003E6DB5 /* ext_systime.h in Headers */,
+				167F4CEC162AF32F003E6DB5 /* ext_time.h in Headers */,
+				167F4CED162AF32F003E6DB5 /* ext_timeline.h in Headers */,
+				167F4CEE162AF32F003E6DB5 /* ext_track.h in Headers */,
+				167F4CEF162AF32F003E6DB5 /* ext_types.h in Headers */,
+				167F4CF0162AF32F003E6DB5 /* ext_user.h in Headers */,
+				167F4CF1162AF32F003E6DB5 /* ext_wind.h in Headers */,
+				167F4CF2162AF32F003E6DB5 /* ext_xmltree.h in Headers */,
+				167F4CF3162AF32F003E6DB5 /* indexmap.h in Headers */,
+				167F4CF4162AF32F003E6DB5 /* jdataview.h in Headers */,
+				167F4CF5162AF32F003E6DB5 /* jgraphics.h in Headers */,
+				167F4CF6162AF32F003E6DB5 /* jpatcher_api.h in Headers */,
+				167F4CF7162AF32F003E6DB5 /* jpatcher_syms.h in Headers */,
+				167F4CF8162AF32F003E6DB5 /* jpatcher_utils.h in Headers */,
+				167F4CF9162AF32F003E6DB5 /* macho-gl-prefix.pch in Headers */,
+				167F4CFA162AF32F003E6DB5 /* macho-prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* max-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "max-external";
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* jit.dmxmap.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "jit.dmxmap" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* max-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167F4BF2162AF284003E6DB5 /* jit.dmxmap.c in Sources */,
+				167F4BF3162AF284003E6DB5 /* max.jit.dmxmap.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167F4D0F162AF38A003E6DB5 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/jit-includes\"",
+					"\"$(SRCROOT)/libs/max-includes\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/jit-includes\"",
+					"\"$(SRCROOT)/libs/max-includes\"",
+				);
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167F4D0F162AF38A003E6DB5 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = "/Applications/Max6/Cycling '74/jitter-externals";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/jit-includes\"",
+					"\"$(SRCROOT)/libs/max-includes\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs/jit-includes\"",
+					"\"$(SRCROOT)/libs/max-includes\"",
+				);
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "jit.dmxmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
