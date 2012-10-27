@@ -20,8 +20,8 @@ t_jit_err jit_dmxmap_matrix_calc(t_jit_dmxmap *x, void *inputs, void *outputs);
 void jit_dmxmap_calculate_ndim(void *vecdata, long dimcount, long *dim, long planecount, t_jit_matrix_info *in1_minfo, char *bip1, 
 							   t_jit_matrix_info *in2_minfo, char *bip2, t_jit_matrix_info *out_minfo, char *bop);
 
-void jit_dmxmap_vector_char(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out);
-void jit_dmxmap_vector_long(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out);
+void jit_dmxmap_vector_char(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out, long length);
+void jit_dmxmap_vector_long(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out, long length);
 END_USING_C_LINKAGE
 
 t_jit_dmxmap * jit_dmxmap_new(t_symbol *s);
@@ -44,14 +44,17 @@ t_jit_err jit_dmxmap_init(void)
 	jit_atom_setsym(&a, _jit_sym_char);
 	jit_object_method(o, _jit_sym_types, 1, &a);			//type		char
 	jit_atom_setlong(&a, 1);
+	//jit_attr_setlong(o, _jit_sym_typelink, 0);				//typelink	0
 	jit_object_method(o, _jit_sym_minplanecount, 4, &a);	//minplane	4
 	jit_object_method(o, _jit_sym_maxplanecount, 4, &a);	//maxplane	4
 	
 	//input2
 	o = jit_object_method(mop, _jit_sym_getinput, 2);
+	//jit_attr_setlong(o, _jit_sym_adapt, 1);					//adapt		1
 	jit_atom_setsym(&a2[0], _jit_sym_long);
 	jit_atom_setsym(&a2[1], _jit_sym_char);
 	jit_object_method(o, _jit_sym_types, 2, &a2);			//type		char, long
+	jit_attr_setlong(o, _jit_sym_typelink, 0);				//typelink	0
 	jit_attr_setlong(o, _jit_sym_planelink, 0);				//planelink	0
 	jit_atom_setlong(&a, 1);
 	jit_object_method(o, _jit_sym_minplanecount, 1, &a);	//minplane	1
@@ -61,9 +64,8 @@ t_jit_err jit_dmxmap_init(void)
 	o = jit_object_method(mop, _jit_sym_getoutput, 1);
 	jit_atom_setsym(&a, _jit_sym_char);
 	jit_object_method(o, _jit_sym_types, 1, &a);			//type		char
+	jit_attr_setlong(o, _jit_sym_typelink, 0);				//typelink	0
 	jit_attr_setlong(o, _jit_sym_dimlink, 0);				//dimlink	0
-	jit_atom_setlong(&a, 512);
-	jit_object_method(o, _jit_sym_dim, 1, &a);				//dim		512
 	jit_attr_setlong(o, _jit_sym_planelink, 0);				//planelink	0
 	jit_atom_setlong(&a, 1);
 	jit_object_method(o, _jit_sym_minplanecount, 1, &a);	//minplane	1
@@ -108,7 +110,7 @@ t_jit_err jit_dmxmap_matrix_calc(t_jit_dmxmap *x, void *inputs, void *outputs)
 		jit_object_method(map_matrix, _jit_sym_getinfo, &map_minfo);
 		jit_object_method(out_matrix, _jit_sym_getinfo, &out_minfo);
 		
-		if ((in_minfo.type!=_jit_sym_char) || (map_minfo.type!=_jit_sym_long)) {
+		if ((in_minfo.type!=_jit_sym_char) || !(map_minfo.type==_jit_sym_long || map_minfo.type==_jit_sym_char)) {
 			err=JIT_ERR_MISMATCH_TYPE;
 			goto out;
 		}
@@ -170,7 +172,7 @@ void jit_dmxmap_calculate_ndim(void *vecdata, long dimcount, long *dim, long pla
 						in1_opinfo.p = bip1 + i*in1_minfo->dimstride[1];
 						in2_opinfo.p = bip2 + i*in2_minfo->dimstride[1];
 						out_opinfo.p = bop;//  + i*out_minfo->dimstride[1];
-						jit_dmxmap_vector_long(n,vecdata,&in1_opinfo,&in2_opinfo,&out_opinfo);
+						jit_dmxmap_vector_long(n,vecdata,&in1_opinfo,&in2_opinfo,&out_opinfo, out_minfo->dim[0]);
 					}
 				}
 			}
@@ -180,7 +182,7 @@ void jit_dmxmap_calculate_ndim(void *vecdata, long dimcount, long *dim, long pla
 						in1_opinfo.p = bip1 + i*in1_minfo->dimstride[1];
 						in2_opinfo.p = bip2 + i*in2_minfo->dimstride[1];
 						out_opinfo.p = bop;//  + i*out_minfo->dimstride[1];
-						jit_dmxmap_vector_char(n,vecdata,&in1_opinfo,&in2_opinfo,&out_opinfo);
+						jit_dmxmap_vector_char(n,vecdata,&in1_opinfo,&in2_opinfo,&out_opinfo, out_minfo->dim[0]);
 					}
 				}				
 			}
@@ -196,11 +198,12 @@ void jit_dmxmap_calculate_ndim(void *vecdata, long dimcount, long *dim, long pla
 }
 
 //template<typename T>
-void jit_dmxmap_vector_char(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out)
+void jit_dmxmap_vector_char(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out, long length)
 {
 	uchar *ip1,*op,*p0;
 	uchar *ip2;
 	long is1,is2,os;
+	long offset;
 	
 	ip1 = ((uchar *)in1->p);
 	ip2 = ((uchar *)in2->p);
@@ -211,20 +214,24 @@ void jit_dmxmap_vector_char(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_
 	
 	++n;
 	while (--n) {
-		p0 = op + (*ip2);
-		p0[0] = ip1[0];
-		p0[1] = ip1[1];
-		p0[2] = ip1[2];
-		ip1 += is1;
-		ip2 += is2;
+		offset = (*ip2);
+		if (offset+2 < length) {
+			p0 = op + offset;
+			p0[0] = ip1[1];
+			p0[1] = ip1[2];
+			p0[2] = ip1[3];
+			ip1 += is1;
+			ip2 += is2;			
+		}
 	}
 }
 
-void jit_dmxmap_vector_long(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out)
+void jit_dmxmap_vector_long(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_info *in2, t_jit_op_info *out, long length)
 {
 	uchar *ip1,*op,*p0;
 	ulong *ip2;
 	long is1,is2,os;
+	long offset;
 	
 	ip1 = ((uchar *)in1->p);
 	ip2 = ((ulong *)in2->p);
@@ -235,12 +242,15 @@ void jit_dmxmap_vector_long(long n, void *vecdata, t_jit_op_info *in1, t_jit_op_
 	
 	++n;
 	while (--n) {
-		p0 = op + (*ip2);
-		p0[0] = ip1[0];
-		p0[1] = ip1[1];
-		p0[2] = ip1[2];
-		ip1 += is1;
-		ip2 += is2;
+		offset = (*ip2);
+		if (offset+2 < length) {
+			p0 = op + offset;
+			p0[0] = ip1[1];
+			p0[1] = ip1[2];
+			p0[2] = ip1[3];
+			ip1 += is1;
+			ip2 += is2;			
+		}
 	}
 }
 

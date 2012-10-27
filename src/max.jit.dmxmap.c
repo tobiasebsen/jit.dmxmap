@@ -58,6 +58,10 @@ void *max_jit_dmxmap_new(t_symbol *s, long argc, t_atom *argv)
 
 	if (x = (t_max_jit_dmxmap *)max_jit_obex_new(class_max_jit_dmxmap,gensym("jit_dmxmap"))) {
 		if (o=jit_object_new(gensym("jit_dmxmap"))) {
+			
+			attr_args_process(x, argc, argv);
+			argc = attr_args_offset(argc, argv);
+
 			max_jit_obex_jitob_set(x, o);
 			max_jit_obex_dumpout_set(x, outlet_new(x,NULL));
 			max_jit_mop_setup(x);
@@ -81,7 +85,7 @@ void *max_jit_dmxmap_new(t_symbol *s, long argc, t_atom *argv)
 			jit_object_method(m, _jit_sym_setinfo, &info);
 
 			//max_jit_obex_jitob_set(x,o);
-			max_jit_attr_args(x,argc,argv);
+			//max_jit_attr_args(x,argc,argv);
 		} else {	
 			jit_object_error((t_object *)x,"jit.dmxmap: out of memory");
 			freeobject((void *)x);
