@@ -1,5 +1,8 @@
 # Directories
 build/
+Debug/
+Release/
+ipch/
 
 # Compiled Object files
 *.slo
@@ -13,3 +16,10 @@ build/
 *.lai
 *.la
 *.a
+
+# MSVC Solution files
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.user
